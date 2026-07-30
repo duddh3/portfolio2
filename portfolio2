@@ -1,0 +1,3406 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>김영오 포트폴리오 커버</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;family=Noto+Serif+KR:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold {
+            color: #d4af37;
+        }
+        
+        .bg-gold {
+            background-color: #d4af37;
+        }
+
+        .border-gold {
+            border-color: #d4af37;
+        }
+
+        /* 배경 장식 */
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.4;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.05) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(212, 175, 55, 0.05) 0%, transparent 20%);
+        }
+
+        .circle-deco {
+            position: absolute;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            z-index: 0;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 10;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .name-typography {
+            font-size: 8rem;
+            line-height: 1;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            background: linear-gradient(to right, #ffffff, #e2e8f0); /* 텍스트 그라디언트는 -webkit-background-clip 사용해야해서 CSS 그라디언트 금지 규칙 준수를 위해 단색 처리하거나 SVG 패턴 고려. 여기서는 안전하게 단색 사용 */
+            color: #fff;
+            text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            margin-bottom: 0.5rem;
+        }
+
+        .glass-box {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- 배경 장식 요소 -->
+<div class="circle-deco" style="width: 800px; height: 800px; top: -200px; right: -200px; border-width: 40px; opacity: 0.03;"></div>
+<div class="circle-deco" style="width: 600px; height: 600px; bottom: -150px; left: -150px; border-color: #d4af37; opacity: 0.05;"></div>
+<!-- 미세한 그리드 패턴 (이미지 대신 CSS로 간단히 표현) -->
+<div style="position: absolute; width: 100%; height: 100%; background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 40px 40px; opacity: 0.3; z-index: 0;"></div>
+<div class="content-wrapper">
+<!-- 상단 라인 -->
+<div class="bg-gold mb-6" style="width: 2px; height: 80px;"></div>
+<p class="text-gold tracking-[0.5em] text-sm font-bold mb-2">PORTFOLIO</p>
+<!-- 이름 영역 -->
+<div class="text-center relative mb-8">
+<h1 class="name-typography">김영오</h1>
+<p class="text-xl text-gray-400 font-light tracking-[0.3em] mt-2">KIM YOUNG OH</p>
+</div>
+<!-- 직무 서브타이틀 -->
+<div class="text-center mb-16 relative">
+<div class="flex items-center justify-center space-x-4 mb-4">
+<div class="h-px w-12 bg-gray-600"></div>
+<h2 class="text-3xl font-bold text-white tracking-wide">IMC 마케팅 리드</h2>
+<div class="h-px w-12 bg-gray-600"></div>
+</div>
+<p class="text-xl text-gray-300 font-light">브랜딩 <span class="text-gold mx-2">·</span> ATL/BTL <span class="text-gold mx-2">·</span> CRM <span class="text-gold mx-2">·</span> 디지털 전환</p>
+</div>
+</div>
+<!-- 하단 강조 문구 -->
+<div class="relative z-10 w-full flex justify-center pb-12">
+<div class="glass-box px-10 py-4 rounded-full flex items-center shadow-lg border-gold border-opacity-30">
+<div class="w-2 h-2 rounded-full bg-gold mr-3 animate-pulse"></div>
+<p class="text-lg font-medium text-white tracking-wide">
+<span class="font-bold text-gold">메가MGC커피</span> IMC 총괄 성과 중심
+                </p>
+</div>
+</div>
+<!-- 장식용 코너 라인 -->
+<div class="absolute top-8 left-8 w-8 h-8 border-t-2 border-l-2 border-gold opacity-50"></div>
+<div class="absolute top-8 right-8 w-8 h-8 border-t-2 border-r-2 border-gold opacity-50"></div>
+<div class="absolute bottom-8 left-8 w-8 h-8 border-b-2 border-l-2 border-gold opacity-50"></div>
+<div class="absolute bottom-8 right-8 w-8 h-8 border-b-2 border-r-2 border-gold opacity-50"></div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>프로필 &amp; 경력 타임라인</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        /* 공통 스타일 */
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+        
+        /* 타임라인 스타일 */
+        .timeline-line {
+            position: absolute;
+            top: 140px; /* 타임라인 수평선 위치 */
+            left: 100px;
+            right: 100px;
+            height: 2px;
+            background-color: rgba(212, 175, 55, 0.3);
+            z-index: 1;
+        }
+
+        .timeline-node {
+            width: 20px;
+            height: 20px;
+            background-color: #1a2332;
+            border: 3px solid #d4af37;
+            border-radius: 50%;
+            position: relative;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-node.active {
+            width: 28px;
+            height: 28px;
+            background-color: #d4af37;
+            box-shadow: 0 0 0 6px rgba(212, 175, 55, 0.2);
+        }
+
+        .card-glass {
+            background-color: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+        }
+
+        /* 배경 패턴 (CSS Gradient 대신 단색 및 투명도 활용) */
+        .bg-deco-circle {
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.02);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container p-12">
+<!-- 배경 장식 -->
+<div class="bg-deco-circle" style="width: 600px; height: 600px; top: -100px; right: -100px;"></div>
+<div class="bg-deco-circle" style="width: 400px; height: 400px; bottom: -50px; left: -50px; border: 1px solid rgba(212, 175, 55, 0.1); background: none;"></div>
+<!-- 헤더 영역 -->
+<div class="relative z-10 mb-12 flex justify-between items-end">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<div class="w-10 h-1 bg-gold"></div>
+<p class="text-gold font-bold tracking-widest text-sm">CAREER PATH</p>
+</div>
+<h1 class="text-4xl font-bold text-white leading-tight">
+                    프로필 &amp; 경력 타임라인 <span class="text-gray-500 font-light text-3xl ml-2">(2013-2025)</span>
+</h1>
+</div>
+<div class="text-right text-gray-400 text-sm">
+<p>총 경력 12년차 마케팅 스페셜리스트</p>
+</div>
+</div>
+<!-- 타임라인 메인 영역 -->
+<div class="flex-1 relative z-10 flex flex-col justify-center">
+<!-- 타임라인 수평선 -->
+<div class="relative w-full h-4 mb-8">
+<div class="absolute top-1/2 left-0 w-full h-0.5 bg-gray-700 transform -translate-y-1/2"></div>
+<div class="absolute top-1/2 left-0 w-full h-0.5 bg-gold transform -translate-y-1/2 opacity-30"></div>
+<!-- 노드 위치 설정 (Flex justify-between 대신 절대 위치로 정교하게 제어) -->
+<div class="absolute top-1/2 left-[16%] transform -translate-y-1/2 -translate-x-1/2">
+<div class="timeline-node"></div>
+</div>
+<div class="absolute top-1/2 left-[50%] transform -translate-y-1/2 -translate-x-1/2">
+<div class="timeline-node active"></div> <!-- 메가커피 강조 -->
+</div>
+<div class="absolute top-1/2 left-[84%] transform -translate-y-1/2 -translate-x-1/2">
+<div class="timeline-node"></div>
+</div>
+</div>
+<!-- 타임라인 콘텐츠 카드 -->
+<div class="grid grid-cols-3 gap-8 h-full">
+<!-- 1. 초기 경력 -->
+<div class="flex flex-col items-center text-center">
+<div class="mb-6 mt-2">
+<p class="text-2xl font-bold text-gray-400">2013 - 2021</p>
+<p class="text-sm text-gray-500 mt-1">약 8년</p>
+</div>
+<div class="card-glass w-full p-6 flex-1 flex flex-col items-center hover:bg-white hover:bg-opacity-5 transition-colors duration-300 relative group">
+<!-- 연결선 -->
+<div class="absolute -top-10 left-1/2 w-0.5 h-10 bg-gray-700 group-hover:bg-gold transition-colors"></div>
+<div class="mb-4">
+<span class="inline-block px-3 py-1 rounded-full border border-gray-600 text-xs text-gray-400 mb-2">Agency &amp; Brand</span>
+<h3 class="text-xl font-bold text-white mb-1">ABC마트 · 더본코리아</h3>
+<p class="text-gold text-sm font-medium">브랜드 PM / 마케팅 기획</p>
+</div>
+<div class="w-10 h-0.5 bg-gray-700 my-4"></div>
+<ul class="text-left text-gray-300 text-sm space-y-3 w-full px-4">
+<li class="flex items-start">
+<i class="fas fa-check text-gold mt-1 mr-2 text-xs"></i>
+<span>브랜드별 ATL/BTL 캠페인 기획 및 실행</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-check text-gold mt-1 mr-2 text-xs"></i>
+<span>TVC 광고 제작 및 매체 집행 총괄</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-check text-gold mt-1 mr-2 text-xs"></i>
+<span>시즌 프로모션 및 CSR 캠페인 운영</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-check text-gold mt-1 mr-2 text-xs"></i>
+<span>글로벌 마케팅 (왕홍 활용) 프로젝트 수행</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- 2. 메가MGC커피 (핵심 경력) -->
+<div class="flex flex-col items-center text-center transform -translate-y-4"> <!-- 살짝 위로 올려서 강조 -->
+<div class="mb-6 mt-2">
+<p class="text-3xl font-black text-gold">2021 - 2023</p>
+<p class="text-sm text-gold mt-1 font-medium">Core Experience</p>
+</div>
+<div class="card-glass w-full p-8 flex-1 flex flex-col items-center border-gold border-opacity-40 bg-opacity-10 shadow-2xl relative">
+<!-- 연결선 -->
+<div class="absolute -top-10 left-1/2 w-0.5 h-10 bg-gold"></div>
+<div class="mb-4">
+<span class="inline-block px-3 py-1 rounded-full bg-gold text-xs text-black font-bold mb-2">F&amp;B Franchise</span>
+<h3 class="text-2xl font-bold text-white mb-1">메가MGC커피</h3>
+<p class="text-gold text-base font-bold">IMC 마케팅 총괄 리드</p>
+</div>
+<div class="w-12 h-1 bg-gold my-4"></div>
+<ul class="text-left text-white text-sm space-y-3 w-full px-2">
+<li class="flex items-start">
+<i class="fas fa-star text-gold mt-1 mr-2 text-xs"></i>
+<span class="font-medium">전사적 IMC (ATL/BTL/Digital) 전략 수립</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-star text-gold mt-1 mr-2 text-xs"></i>
+<span>브랜드 캠페인 &amp; '즐거움 취향' 컨셉 정립</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-star text-gold mt-1 mr-2 text-xs"></i>
+<span>CRM 솔루션 도입 및 멤버십 앱 전면 리뉴얼</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-star text-gold mt-1 mr-2 text-xs"></i>
+<span>대형 제휴(통신사/페이) 및 콜라보 총괄</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- 3. 스타트업 창업 -->
+<div class="flex flex-col items-center text-center">
+<div class="mb-6 mt-2">
+<p class="text-2xl font-bold text-gray-400">2023 - 2025</p>
+<p class="text-sm text-gray-500 mt-1">도전과 성장</p>
+</div>
+<div class="card-glass w-full p-6 flex-1 flex flex-col items-center hover:bg-white hover:bg-opacity-5 transition-colors duration-300 relative group">
+<!-- 연결선 -->
+<div class="absolute -top-10 left-1/2 w-0.5 h-10 bg-gray-700 group-hover:bg-gold transition-colors"></div>
+<div class="mb-4">
+<span class="inline-block px-3 py-1 rounded-full border border-gray-600 text-xs text-gray-400 mb-2">Food Startup</span>
+<h3 class="text-xl font-bold text-white mb-1">식단요정 (창업)</h3>
+<p class="text-gold text-sm font-medium">Founder / 운영 총괄</p>
+</div>
+<div class="w-10 h-0.5 bg-gray-700 my-4"></div>
+<ul class="text-left text-gray-300 text-sm space-y-3 w-full px-4">
+<li class="flex items-start">
+<i class="fas fa-check text-gold mt-1 mr-2 text-xs"></i>
+<span>웰니스 푸드 브랜드 A-Z 런칭 및 운영</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-check text-gold mt-1 mr-2 text-xs"></i>
+<span>그릭요거트 누적 200만g 판매 달성</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-check text-gold mt-1 mr-2 text-xs"></i>
+<span>재구매율 74% 달성 및 커뮤니티 구축</span>
+</li>
+<li class="flex items-start">
+<i class="fas fa-check text-gold mt-1 mr-2 text-xs"></i>
+<span>자사몰 및 9개 주요 플랫폼 입점 확장</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 하단 장식 -->
+<div class="absolute bottom-0 left-0 w-full h-2 bg-gray-800">
+<div class="h-full bg-gold w-1/3 mx-auto"></div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>메가MGC커피 섹션 오프닝</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Black+Han+Sans&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        /* 배경 장식 */
+        .circle-deco {
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(212, 175, 55, 0.05); /* 골드 투명 */
+            z-index: 0;
+        }
+
+        .line-deco {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.1);
+            z-index: 0;
+        }
+
+        .content-wrapper {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .section-number {
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: 180px;
+            line-height: 1;
+            color: rgba(255, 255, 255, 0.03);
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+
+        .main-title {
+            font-size: 5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+        }
+
+        .sub-title {
+            font-size: 1.8rem;
+            font-weight: 300;
+            letter-spacing: 0.05em;
+            color: #e2e8f0;
+            margin-bottom: 3rem;
+        }
+
+        .highlight-box {
+            background-color: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            padding: 1.5rem 3rem;
+            border-radius: 8px;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            color: #d1d5db;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .highlight-icon {
+            color: #d4af37;
+            margin-right: 0.8rem;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- 배경 장식 -->
+<div class="circle-deco" style="width: 900px; height: 900px; top: -450px; left: -200px; opacity: 0.03;"></div>
+<div class="circle-deco" style="width: 700px; height: 700px; bottom: -350px; right: -150px; border: 2px solid rgba(212, 175, 55, 0.1); background: transparent;"></div>
+<!-- 그리드 라인 장식 -->
+<div class="line-deco" style="width: 1px; height: 100%; left: 100px; opacity: 0.05;"></div>
+<div class="line-deco" style="width: 1px; height: 100%; right: 100px; opacity: 0.05;"></div>
+<div class="line-deco" style="width: 100%; height: 1px; top: 100px; opacity: 0.05;"></div>
+<div class="line-deco" style="width: 100%; height: 1px; bottom: 100px; opacity: 0.05;"></div>
+<div class="content-wrapper">
+<!-- 배경 텍스트 -->
+<p class="section-number">01</p>
+<!-- 상단 작은 라벨 -->
+<div class="flex items-center space-x-3 mb-6">
+<div class="w-12 h-0.5 bg-gold"></div>
+<p class="text-gold tracking-widest font-bold text-sm uppercase">Key Experience</p>
+<div class="w-12 h-0.5 bg-gold"></div>
+</div>
+<!-- 메인 타이틀 -->
+<h1 class="main-title">
+<span class="text-white">메가MGC커피</span>
+<span class="block text-4xl font-light text-gray-400 mt-2 tracking-widest">2021 - 2023</span>
+</h1>
+<!-- 서브 타이틀 -->
+<div class="mt-8 mb-12">
+<p class="sub-title">IMC 총괄 <span class="text-gold font-medium text-2xl mx-2">|</span> ATL · BTL · Digital · CRM · 제휴 · IT 기획</p>
+</div>
+<!-- 하단 핵심 과제 박스 -->
+<div class="highlight-box">
+<div class="highlight-item">
+<i class="fas fa-bullseye highlight-icon"></i>
+<p>브랜드 일관성 확립</p>
+</div>
+<div class="w-px h-6 bg-gray-600"></div>
+<div class="highlight-item">
+<i class="fas fa-layer-group highlight-icon"></i>
+<p>캠페인 체계화</p>
+</div>
+<div class="w-px h-6 bg-gray-600"></div>
+<div class="highlight-item">
+<i class="fas fa-chart-line highlight-icon"></i>
+<p>데이터 기반 전환</p>
+</div>
+</div>
+</div>
+<!-- 하단 장식용 바 -->
+<div class="absolute bottom-0 left-0 w-full h-3 bg-gray-900">
+<div class="h-full bg-gold w-32 mx-auto"></div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IMC 통합 마케팅 총괄</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        /* 배경 장식 */
+        .bg-deco {
+            position: absolute;
+            z-index: 0;
+            opacity: 0.05;
+            border: 1px solid #ffffff;
+        }
+
+        /* Glassmorphism Card */
+        .glass-card {
+            background-color: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .glass-card:hover {
+            background-color: rgba(255, 255, 255, 0.08);
+            transform: translateY(-5px);
+            border-color: rgba(212, 175, 55, 0.5);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .card-icon-box {
+            width: 64px;
+            height: 64px;
+            background-color: rgba(212, 175, 55, 0.1);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .list-dot {
+            width: 6px;
+            height: 6px;
+            background-color: #d4af37;
+            border-radius: 50%;
+            margin-top: 8px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .governance-bar {
+            background-color: rgba(26, 35, 50, 0.8);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- 배경 장식 -->
+<div class="bg-deco rounded-full" style="width: 600px; height: 600px; top: -200px; right: -200px; border-color: #d4af37; opacity: 0.03;"></div>
+<div class="bg-deco" style="width: 100%; height: 1px; top: 180px; left: 0; background-color: #fff; border: none; opacity: 0.1;"></div>
+<!-- 헤더 영역 -->
+<div class="relative z-10 mb-10">
+<div class="flex items-center gap-3 mb-2">
+<span class="bg-gold text-gray-900 text-xs font-bold px-2 py-1 rounded">MEGA MGC COFFEE</span>
+<p class="text-gray-400 text-sm tracking-widest">2021 - 2023</p>
+</div>
+<div class="flex justify-between items-end">
+<div>
+<h1 class="text-4xl font-bold text-white mb-4">IMC 통합 마케팅 총괄</h1>
+<p class="text-xl text-gray-300 font-light">
+                        통합 크리에이티브 플랫폼 <span class="text-gold font-bold">"즐거움 취향의 수만큼"</span> 설계 및 운영
+                    </p>
+</div>
+<div class="text-right hidden">
+<!-- Optional: 우측 상단 추가 정보 -->
+</div>
+</div>
+</div>
+<!-- 메인 콘텐츠: 3 Cards -->
+<div class="grid grid-cols-3 gap-6 flex-1 relative z-10 mb-8">
+<!-- Card 1: ATL -->
+<div class="glass-card p-8 flex flex-col h-full">
+<div class="flex justify-between items-start">
+<div class="card-icon-box">
+<i class="fas fa-broadcast-tower text-2xl text-gold"></i>
+</div>
+<p class="text-gray-500 text-sm font-bold tracking-wider">01</p>
+</div>
+<h2 class="text-2xl font-bold text-white mb-2">ATL Campaign</h2>
+<p class="text-sm text-gray-400 mb-6 border-b border-gray-700 pb-4">TVC &amp; Branding Strategy</p>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="list-dot"></div>
+<p class="text-gray-300 text-sm leading-relaxed">
+<span class="text-white font-medium">TVC 광고 기획/운영:</span><br/>
+                            손흥민 등 빅모델 활용 브랜드 인지도 제고
+                        </p>
+</div>
+<div class="flex items-start">
+<div class="list-dot"></div>
+<p class="text-gray-300 text-sm leading-relaxed">
+<span class="text-white font-medium">브랜드 아이덴티티:</span><br/>
+                            일관된 톤앤매너 및 키비주얼 가이드 수립
+                        </p>
+</div>
+</div>
+</div>
+<!-- Card 2: BTL -->
+<div class="glass-card p-8 flex flex-col h-full border-gold border-opacity-30 bg-white bg-opacity-5">
+<div class="flex justify-between items-start">
+<div class="card-icon-box bg-gold bg-opacity-20 border-gold border-opacity-40">
+<i class="fas fa-store text-2xl text-gold"></i>
+</div>
+<p class="text-gold text-sm font-bold tracking-wider">02</p>
+</div>
+<h2 class="text-2xl font-bold text-white mb-2">BTL Activation</h2>
+<p class="text-sm text-gray-400 mb-6 border-b border-gray-700 pb-4">VMD, Promotion, Experience</p>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="list-dot"></div>
+<p class="text-gray-300 text-sm leading-relaxed">
+<span class="text-white font-medium">매장 경험 강화:</span><br/>
+                            VMD 연출, 사운드 POP, 시즌 프로모션
+                        </p>
+</div>
+<div class="flex items-start">
+<div class="list-dot"></div>
+<p class="text-gray-300 text-sm leading-relaxed">
+<span class="text-white font-medium">참여형 콘텐츠:</span><br/>
+                            AR 이벤트 및 오프라인-앱 연계 프로모션
+                        </p>
+</div>
+</div>
+</div>
+<!-- Card 3: Digital & CRM -->
+<div class="glass-card p-8 flex flex-col h-full">
+<div class="flex justify-between items-start">
+<div class="card-icon-box">
+<i class="fas fa-mobile-screen-button text-2xl text-gold"></i>
+</div>
+<p class="text-gray-500 text-sm font-bold tracking-wider">03</p>
+</div>
+<h2 class="text-2xl font-bold text-white mb-2">Digital &amp; CRM</h2>
+<p class="text-sm text-gray-400 mb-6 border-b border-gray-700 pb-4">Data-driven Marketing</p>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="list-dot"></div>
+<p class="text-gray-300 text-sm leading-relaxed">
+<span class="text-white font-medium">CRM 최적화:</span><br/>
+                            솔루션 도입 및 고객 세그먼트별 타겟팅
+                        </p>
+</div>
+<div class="flex items-start">
+<div class="list-dot"></div>
+<p class="text-gray-300 text-sm leading-relaxed">
+<span class="text-white font-medium">플랫폼 고도화:</span><br/>
+                            멤버십 앱 전면 리뉴얼 및 사용성 개선
+                        </p>
+</div>
+</div>
+</div>
+</div>
+<!-- 하단 거버넌스 바 -->
+<div class="relative z-10 mt-auto">
+<div class="glass-card px-8 py-5 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="bg-gray-700 p-2 rounded-full">
+<i class="fas fa-users-cog text-gold"></i>
+</div>
+<div>
+<p class="text-gray-400 text-xs font-bold uppercase tracking-wider mb-1">Governance</p>
+<p class="text-white text-base font-medium">종합 광고 대행사 및 실행사 협업 리드 (R&amp;R 정립)</p>
+</div>
+</div>
+<div class="h-8 w-px bg-gray-600 mx-4"></div>
+<div class="flex items-center gap-4">
+<div class="bg-gray-700 p-2 rounded-full">
+<i class="fas fa-chart-pie text-gold"></i>
+</div>
+<div>
+<p class="text-gray-400 text-xs font-bold uppercase tracking-wider mb-1">Performance</p>
+<p class="text-white text-base font-medium">채널별 KPI 체계 수립 및 ROAS 관리</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ATL 캠페인 | TVC &amp; 브랜딩</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Black+Han+Sans&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 50px 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+        
+        /* Typography */
+        .slogan-text {
+            font-family: 'Black Han Sans', sans-serif;
+            background: transparent;
+            -webkit-text-stroke: 1px rgba(212, 175, 55, 0.3);
+            color: transparent; 
+            /* 그라디언트 금지로 인해 투명도와 스트로크 활용 */
+        }
+
+        /* Glassmorphism Panel */
+        .glass-panel {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .glass-panel:hover {
+            border-color: rgba(212, 175, 55, 0.3);
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .panel-header {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 20px 24px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .content-box {
+            padding: 24px;
+            flex: 1;
+        }
+
+        /* Decoration */
+        .deco-circle {
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(212, 175, 55, 0.05);
+            z-index: 0;
+        }
+
+        .bullet-gold {
+            min-width: 8px;
+            height: 8px;
+            background-color: #d4af37;
+            border-radius: 2px;
+            margin-top: 8px;
+            margin-right: 12px;
+        }
+
+        .dashed-line {
+            border-left: 2px dashed rgba(255, 255, 255, 0.1);
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- 배경 장식 -->
+<div class="deco-circle" style="width: 800px; height: 800px; top: -400px; right: -200px;"></div>
+<div class="deco-circle" style="width: 600px; height: 600px; bottom: -300px; left: -100px; opacity: 0.03;"></div>
+<!-- 헤더 섹션 -->
+<div class="relative z-10 w-full mb-10">
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">Brand Campaign</p>
+</div>
+<h1 class="text-4xl font-bold text-white tracking-tight">ATL 캠페인 <span class="text-gray-500 font-light mx-2">|</span> <span class="text-2xl text-gray-300 font-normal">TVC &amp; 브랜딩</span></h1>
+</div>
+<!-- 슬로건 배너 -->
+<div class="relative z-10 w-full mb-10 py-6 border-t border-b border-gray-700 bg-white bg-opacity-5 flex justify-center items-center">
+<div class="absolute left-0 top-0 h-full w-1 bg-gold"></div>
+<p class="text-4xl font-black text-white tracking-wider text-center" style="font-family: 'Black Han Sans', sans-serif;">
+            "즐거움, <span class="text-gold">취향의 수만큼</span>"
+        </p>
+<p class="absolute right-8 text-gray-500 text-sm tracking-widest font-light">CORE MESSAGE</p>
+</div>
+<!-- 메인 콘텐츠 2열 구조 -->
+<div class="relative z-10 grid grid-cols-2 gap-10 flex-1">
+<!-- 중앙 구분선 (장식) -->
+<div class="dashed-line"></div>
+<!-- 왼쪽: 전략 & 실행 -->
+<div class="glass-panel">
+<div class="panel-header">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center border border-blue-700">
+<i class="fas fa-chess-knight text-blue-300 text-sm"></i>
+</div>
+<h2 class="text-lg font-bold text-blue-100">STRATEGY &amp; EXECUTION</h2>
+</div>
+<span class="text-xs text-gray-500 font-mono">STEP 01</span>
+</div>
+<div class="content-box flex flex-col justify-between">
+<!-- 목표 -->
+<div class="mb-6">
+<p class="text-xs text-gray-400 font-bold mb-3 tracking-wider flex items-center">
+<i class="fas fa-bullseye mr-2 text-gold"></i> OBJECTIVE
+                    </p>
+<div class="bg-gray-800 bg-opacity-40 p-4 rounded-lg border border-gray-700">
+<p class="text-white font-medium mb-1">브랜드 아이덴티티(BI) 강화</p>
+<p class="text-gray-400 text-sm">파편화된 브랜드 이미지를 통합하고 대중 인지도 제고</p>
+</div>
+</div>
+<!-- 접근 -->
+<div>
+<p class="text-xs text-gray-400 font-bold mb-3 tracking-wider flex items-center">
+<i class="fas fa-route mr-2 text-gold"></i> APPROACH
+                    </p>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="bullet-gold"></div>
+<div>
+<p class="text-white text-sm font-bold">메인 TVC 및 키비주얼 개발</p>
+<p class="text-gray-400 text-xs mt-0.5">빅모델 활용 및 시각적 임팩트 강화</p>
+</div>
+</li>
+<li class="flex items-start">
+<div class="bullet-gold"></div>
+<div>
+<p class="text-white text-sm font-bold">시즌 테마의 온·오프라인 확장</p>
+<p class="text-gray-400 text-xs mt-0.5">매장 VMD부터 디지털 콘텐츠까지 일관된 메시지 전달</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- 오른쪽: 성과 & 임팩트 -->
+<div class="glass-panel border-gold border-opacity-30">
+<div class="panel-header bg-opacity-30" style="background-color: rgba(212, 175, 55, 0.1);">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-yellow-900 flex items-center justify-center border border-yellow-700">
+<i class="fas fa-trophy text-gold text-sm"></i>
+</div>
+<h2 class="text-lg font-bold text-yellow-100">OUTCOME &amp; IMPACT</h2>
+</div>
+<span class="text-xs text-gold font-mono">STEP 02</span>
+</div>
+<div class="content-box flex flex-col justify-center">
+<div class="space-y-6">
+<!-- 성과 1 -->
+<div class="flex items-center">
+<div class="flex-1">
+<p class="text-3xl font-bold text-white mb-1">Standardization</p>
+<p class="text-gold font-medium">브랜드 톤앤매너 표준화</p>
+</div>
+<div class="w-12 h-12 flex items-center justify-center">
+<i class="fas fa-check-circle text-4xl text-gray-700"></i>
+</div>
+</div>
+<div class="w-full h-px bg-gray-700"></div>
+<!-- 성과 2 -->
+<div class="flex items-center">
+<div class="flex-1">
+<p class="text-3xl font-bold text-white mb-1">Scalability</p>
+<p class="text-gold font-medium">캠페인 재사용성 및 확장성 확보</p>
+</div>
+<div class="w-12 h-12 flex items-center justify-center">
+<i class="fas fa-layer-group text-4xl text-gray-700"></i>
+</div>
+</div>
+<div class="mt-6 bg-gold bg-opacity-10 p-4 rounded-lg border border-gold border-opacity-20">
+<div class="flex items-start gap-3">
+<i class="fas fa-quote-left text-gold text-xl opacity-50"></i>
+<p class="text-gray-300 text-sm leading-relaxed">
+                            "단발성 광고를 넘어, 브랜드의 <span class="text-white font-bold">장기적인 자산</span>이 되는 크리에이티브 시스템 구축"
+                        </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 하단 페이지 번호 -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+        05
+    </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BTL 액티베이션 | VMD &amp; 프로모션</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Black+Han+Sans&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 50px 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+        
+        /* Typography */
+        .slogan-text {
+            font-family: 'Black Han Sans', sans-serif;
+            background: transparent;
+            -webkit-text-stroke: 1px rgba(212, 175, 55, 0.3);
+            color: transparent; 
+        }
+
+        /* Glassmorphism Panel */
+        .glass-panel {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .glass-panel:hover {
+            border-color: rgba(212, 175, 55, 0.3);
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .panel-header {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 20px 24px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .content-box {
+            padding: 24px;
+            flex: 1;
+        }
+
+        /* Decoration */
+        .deco-circle {
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(212, 175, 55, 0.05);
+            z-index: 0;
+        }
+
+        .bullet-gold {
+            min-width: 8px;
+            height: 8px;
+            background-color: #d4af37;
+            border-radius: 2px;
+            margin-top: 6px;
+            margin-right: 12px;
+        }
+
+        .dashed-line {
+            border-left: 2px dashed rgba(255, 255, 255, 0.1);
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- 배경 장식 -->
+<div class="deco-circle" style="width: 800px; height: 800px; top: -400px; right: -200px;"></div>
+<div class="deco-circle" style="width: 600px; height: 600px; bottom: -300px; left: -100px; opacity: 0.03;"></div>
+<!-- 헤더 섹션 -->
+<div class="relative z-10 w-full mb-8">
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">BTL Activation</p>
+</div>
+<h1 class="text-4xl font-bold text-white tracking-tight">BTL 활동 <span class="text-gray-500 font-light mx-2">|</span> <span class="text-2xl text-gray-300 font-normal">VMD &amp; 프로모션</span></h1>
+</div>
+<!-- 슬로건 배너 -->
+<div class="relative z-10 w-full mb-8 py-5 border-t border-b border-gray-700 bg-white bg-opacity-5 flex justify-center items-center">
+<div class="absolute left-0 top-0 h-full w-1 bg-gold"></div>
+<p class="text-3xl font-black text-white tracking-wider text-center" style="font-family: 'Black Han Sans', sans-serif;">
+            "오감으로 경험하는 <span class="text-gold">즐거운 브랜드 여정</span>"
+        </p>
+<p class="absolute right-8 text-gray-500 text-sm tracking-widest font-light">EXPERIENCE STRATEGY</p>
+</div>
+<!-- 메인 콘텐츠 2열 구조 -->
+<div class="relative z-10 grid grid-cols-2 gap-10 flex-1">
+<!-- 중앙 구분선 (장식) -->
+<div class="dashed-line"></div>
+<!-- 왼쪽: 전략 & 실행 -->
+<div class="glass-panel">
+<div class="panel-header">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center border border-blue-700">
+<i class="fas fa-store text-blue-300 text-sm"></i>
+</div>
+<h2 class="text-lg font-bold text-blue-100">KEY ACTIVITIES</h2>
+</div>
+<span class="text-xs text-gray-500 font-mono">EXECUTION</span>
+</div>
+<div class="content-box flex flex-col justify-center">
+<ul class="space-y-5">
+<!-- Item 1 -->
+<li class="flex items-start">
+<div class="bg-gray-800 p-2 rounded mr-4 border border-gray-700">
+<i class="fas fa-swatchbook text-gold text-sm"></i>
+</div>
+<div>
+<p class="text-white text-base font-bold">매장 VMD 가이드 구축</p>
+<p class="text-gray-400 text-sm mt-0.5">시즌별 연출물 표준화로 일관된 오프라인 경험 제공</p>
+</div>
+</li>
+<!-- Item 2 -->
+<li class="flex items-start">
+<div class="bg-gray-800 p-2 rounded mr-4 border border-gray-700">
+<i class="fas fa-calendar-alt text-gold text-sm"></i>
+</div>
+<div>
+<p class="text-white text-base font-bold">프로모션 캘린더 운영</p>
+<p class="text-gray-400 text-sm mt-0.5">이슈 선점 및 체계적인 온·오프라인 이벤트 관리</p>
+</div>
+</li>
+<!-- Item 3 -->
+<li class="flex items-start">
+<div class="bg-gray-800 p-2 rounded mr-4 border border-gray-700">
+<i class="fas fa-music text-gold text-sm"></i>
+</div>
+<div>
+<p class="text-white text-base font-bold">사운드 POP 제작</p>
+<p class="text-gray-400 text-sm mt-0.5">청각적 자극(Jingle/CM)을 활용한 매장 분위기 연출</p>
+</div>
+</li>
+<!-- Item 4 -->
+<li class="flex items-start">
+<div class="bg-gray-800 p-2 rounded mr-4 border border-gray-700">
+<i class="fas fa-mobile-alt text-gold text-sm"></i>
+</div>
+<div>
+<p class="text-white text-base font-bold">AR(증강현실) 이벤트</p>
+<p class="text-gray-400 text-sm mt-0.5">매장 내 참여형 콘텐츠로 고객 체류 경험 확장</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- 오른쪽: 성과 & 임팩트 -->
+<div class="glass-panel border-gold border-opacity-30">
+<div class="panel-header bg-opacity-30" style="background-color: rgba(212, 175, 55, 0.1);">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-yellow-900 flex items-center justify-center border border-yellow-700">
+<i class="fas fa-chart-line text-gold text-sm"></i>
+</div>
+<h2 class="text-lg font-bold text-yellow-100">PERFORMANCE</h2>
+</div>
+<span class="text-xs text-gold font-mono">IMPACT</span>
+</div>
+<div class="content-box flex flex-col justify-center">
+<div class="space-y-6">
+<!-- 성과 1 -->
+<div class="flex items-start">
+<div class="flex-1">
+<p class="text-sm text-gray-400 tracking-wider mb-1">ENGAGEMENT</p>
+<p class="text-xl font-bold text-white">매장 체류/참여도 개선</p>
+<p class="text-sm text-gray-500 mt-1">구매 여정 상 고객 경험(CX) 밀도 강화</p>
+</div>
+<div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center">
+<i class="fas fa-clock text-gold"></i>
+</div>
+</div>
+<div class="w-full h-px bg-gray-700 opacity-50"></div>
+<!-- 성과 2 -->
+<div class="flex items-start">
+<div class="flex-1">
+<p class="text-sm text-gray-400 tracking-wider mb-1">CONVERSION</p>
+<p class="text-xl font-bold text-white">전환 접점 확대</p>
+<p class="text-sm text-gray-500 mt-1">단순 방문을 넘어선 능동적 구매 유도</p>
+</div>
+<div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center">
+<i class="fas fa-exchange-alt text-gold"></i>
+</div>
+</div>
+<div class="w-full h-px bg-gray-700 opacity-50"></div>
+<!-- 성과 3 -->
+<div class="flex items-start">
+<div class="flex-1">
+<p class="text-sm text-gray-400 tracking-wider mb-1">O2O SYNERGY</p>
+<p class="text-xl font-bold text-white">오프라인-앱 연동 유입 증대</p>
+<p class="text-sm text-gray-500 mt-1">오프라인 경험을 디지털 트래픽으로 전환</p>
+</div>
+<div class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center">
+<i class="fas fa-link text-gold"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 하단 페이지 번호 -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+        06
+    </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CRM 솔루션 도입 &amp; 디지털 전환</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+        .text-light-gold { color: #f3e5ab; }
+
+        /* Glassmorphism Cards */
+        .glass-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .glass-card.highlight {
+            background-color: rgba(212, 175, 55, 0.05);
+            border-color: rgba(212, 175, 55, 0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .step-number {
+            font-size: 4rem;
+            font-weight: 900;
+            color: rgba(255, 255, 255, 0.05);
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            line-height: 1;
+        }
+
+        .icon-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .arrow-connector {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255, 255, 255, 0.2);
+            font-size: 2rem;
+            padding: 0 1rem;
+        }
+
+        /* Background Decorations */
+        .bg-circle {
+            position: absolute;
+            border-radius: 50%;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Decorations -->
+<div class="bg-circle" style="width: 800px; height: 800px; top: -400px; right: -200px; background-color: rgba(212, 175, 55, 0.03);"></div>
+<div class="bg-circle" style="width: 600px; height: 600px; bottom: -300px; left: -100px; border: 1px solid rgba(255, 255, 255, 0.05);"></div>
+<!-- Header -->
+<div class="relative z-10 mb-10">
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">Digital Transformation</p>
+</div>
+<h1 class="text-4xl font-bold text-white tracking-tight">CRM 솔루션 도입 <span class="text-gray-500 font-light mx-2">&amp;</span> <span class="text-2xl text-gray-300 font-normal">디지털 전환</span></h1>
+</div>
+<!-- Main Content: Problem-Solution-Result Process -->
+<div class="flex-1 relative z-10 flex items-stretch justify-between gap-4">
+<!-- Step 1: Problem (과제) -->
+<div class="flex-1 glass-card p-8">
+<div class="step-number">01</div>
+<div class="icon-circle bg-gray-800 text-gray-400 border border-gray-700">
+<i class="fas fa-exclamation-triangle"></i>
+</div>
+<div class="mb-4">
+<p class="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">THE CHALLENGE</p>
+<h2 class="text-2xl font-bold text-white mb-2">과제 및 이슈</h2>
+</div>
+<div class="space-y-4 flex-1">
+<div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg border-l-2 border-gray-600">
+<p class="text-white font-bold text-sm mb-1">채널 분절화</p>
+<p class="text-gray-400 text-xs leading-relaxed">온/오프라인 고객 접점 분산으로 일관된 메시지 전달 어려움</p>
+</div>
+<div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg border-l-2 border-gray-600">
+<p class="text-white font-bold text-sm mb-1">데이터 단절</p>
+<p class="text-gray-400 text-xs leading-relaxed">고객 행동 데이터가 통합되지 않아 정교한 타겟팅 불가</p>
+</div>
+<div class="mt-4 pt-4 border-t border-gray-700 text-center">
+<p class="text-gold text-sm font-bold">"일원화된 CRM 시스템 필요"</p>
+</div>
+</div>
+</div>
+<!-- Arrow -->
+<div class="arrow-connector">
+<i class="fas fa-chevron-right"></i>
+</div>
+<!-- Step 2: Solution (해결) -->
+<div class="flex-1 glass-card p-8 border-blue-500 border-opacity-30 bg-blue-900 bg-opacity-10">
+<div class="step-number">02</div>
+<div class="icon-circle bg-blue-900 text-blue-300 border border-blue-700">
+<i class="fas fa-cogs"></i>
+</div>
+<div class="mb-4">
+<p class="text-xs text-blue-300 font-bold uppercase tracking-wider mb-1">THE SOLUTION</p>
+<h2 class="text-2xl font-bold text-white mb-2">해결 방안</h2>
+</div>
+<div class="space-y-4 flex-1">
+<ul class="space-y-3">
+<li class="flex items-start">
+<i class="fas fa-check-circle text-blue-400 mt-1 mr-3 text-sm"></i>
+<div>
+<p class="text-white text-sm font-bold">CRM 솔루션 도입</p>
+<p class="text-gray-400 text-xs">데이터 통합 및 분석 환경 구축</p>
+</div>
+</li>
+<li class="flex items-start">
+<i class="fas fa-check-circle text-blue-400 mt-1 mr-3 text-sm"></i>
+<div>
+<p class="text-white text-sm font-bold">자동화 시스템 구축</p>
+<p class="text-gray-400 text-xs">고객 세그먼트별 시나리오 및 자동 발송</p>
+</div>
+</li>
+<li class="flex items-start">
+<i class="fas fa-check-circle text-blue-400 mt-1 mr-3 text-sm"></i>
+<div>
+<p class="text-white text-sm font-bold">브랜드 맞춤 개발</p>
+<p class="text-gray-400 text-xs">메가MGC커피 특성에 맞춘 기능 최적화</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- Arrow -->
+<div class="arrow-connector">
+<i class="fas fa-chevron-right text-gold text-opacity-50"></i>
+</div>
+<!-- Step 3: Result (결과) -->
+<div class="flex-1 glass-card highlight p-8">
+<div class="step-number text-gold text-opacity-10">03</div>
+<div class="icon-circle bg-gold text-black border border-white">
+<i class="fas fa-chart-line"></i>
+</div>
+<div class="mb-4">
+<p class="text-xs text-gold font-bold uppercase tracking-wider mb-1">KEY RESULTS</p>
+<h2 class="text-2xl font-bold text-white mb-2">성과 도출</h2>
+</div>
+<div class="space-y-5 flex-1 flex flex-col justify-center">
+<div class="flex items-center">
+<div class="w-10 h-10 rounded-full bg-gold bg-opacity-20 flex items-center justify-center mr-3 text-gold">
+<i class="fas fa-user-check"></i>
+</div>
+<div>
+<p class="text-white font-bold text-base">메시지 개인화</p>
+<p class="text-gray-400 text-xs">타겟 맞춤형 혜택 제공</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-10 h-10 rounded-full bg-gold bg-opacity-20 flex items-center justify-center mr-3 text-gold">
+<i class="fas fa-stopwatch"></i>
+</div>
+<div>
+<p class="text-white font-bold text-base">운영 효율 향상</p>
+<p class="text-gray-400 text-xs">캠페인 집행 시간/비용 절감</p>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-10 h-10 rounded-full bg-gold bg-opacity-20 flex items-center justify-center mr-3 text-gold">
+<i class="fas fa-heart"></i>
+</div>
+<div>
+<p class="text-white font-bold text-base">충성도 제고</p>
+<p class="text-gray-400 text-xs">재방문율 및 LTV 증대</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Note -->
+<div class="relative z-10 mt-6 flex justify-between items-center border-t border-gray-700 pt-4">
+<p class="text-gray-500 text-xs">
+<i class="fas fa-info-circle mr-1"></i> 데이터 기반 의사결정 체계 확립을 통한 마케팅 ROI 개선
+            </p>
+<p class="text-gray-600 font-mono text-sm">07</p>
+</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>제휴 마케팅 &amp; IT 기획</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Black+Han+Sans&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 50px 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        /* Glassmorphism */
+        .glass-box {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .glass-box:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-color: rgba(212, 175, 55, 0.3);
+        }
+
+        .section-label {
+            background: linear-gradient(135deg, rgba(26, 35, 50, 0.9), rgba(26, 35, 50, 0.7));
+            border-right: 3px solid #d4af37;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .icon-box {
+            width: 48px;
+            height: 48px;
+            background-color: rgba(212, 175, 55, 0.1);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #d4af37;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        /* Background Deco */
+        .grid-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            z-index: 0;
+        }
+
+        .glow-circle {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .impact-bar {
+            background: rgba(212, 175, 55, 0.1);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Decorations -->
+<div class="grid-bg"></div>
+<div class="glow-circle bg-gold" style="width: 500px; height: 500px; top: -200px; right: -100px;"></div>
+<div class="glow-circle bg-blue-500" style="width: 400px; height: 400px; bottom: -100px; left: -100px;"></div>
+<!-- Header -->
+<div class="relative z-10 mb-8 flex justify-between items-end">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">Expansion &amp; Optimization</p>
+</div>
+<h1 class="text-4xl font-bold text-white tracking-tight">제휴 마케팅 <span class="text-gray-500 font-light mx-2">&amp;</span> IT 기획</h1>
+</div>
+<div class="text-right">
+<p class="text-gray-400 text-sm">고객 경험의 확장과 편의성 증대</p>
+</div>
+</div>
+<!-- Main Content -->
+<div class="relative z-10 flex-1 flex flex-col gap-5">
+<!-- Section 1: Partnership Marketing -->
+<div class="flex flex-1 gap-5">
+<!-- Label -->
+<div class="w-1/4 glass-box section-label">
+<div class="icon-box">
+<i class="fas fa-handshake"></i>
+</div>
+<h2 class="text-xl font-bold text-white mb-1">Partnership<br/>Marketing</h2>
+<p class="text-gray-400 text-xs">외부 제휴 및 콜라보레이션</p>
+</div>
+<!-- Content Cards -->
+<div class="w-3/4 grid grid-cols-2 gap-4">
+<div class="glass-box p-5 flex flex-col justify-center">
+<div class="flex items-center mb-3">
+<i class="fas fa-mobile-alt text-gold mr-3"></i>
+<h3 class="text-white font-bold text-lg">통신사/페이 제휴</h3>
+</div>
+<ul class="space-y-2">
+<li class="flex items-center text-sm text-gray-300">
+<span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>
+<p>통신사(SKT/KT/LGU+) 멤버십 제휴</p>
+</li>
+<li class="flex items-center text-sm text-gray-300">
+<span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>
+<p>간편결제(Naver/Kakao/Apple Pay) 도입</p>
+</li>
+</ul>
+</div>
+<div class="glass-box p-5 flex flex-col justify-center">
+<div class="flex items-center mb-3">
+<i class="fas fa-gift text-gold mr-3"></i>
+<h3 class="text-white font-bold text-lg">혜택 및 콜라보</h3>
+</div>
+<ul class="space-y-2">
+<li class="flex items-center text-sm text-gray-300">
+<span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>
+<p>금융사 연계 프로모션 및 청구 할인</p>
+</li>
+<li class="flex items-center text-sm text-gray-300">
+<span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>
+<p>브랜드 콜라보 굿즈(드롭드롭드롭 등) 기획</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Section 2: IT Planning -->
+<div class="flex flex-1 gap-5">
+<!-- Label -->
+<div class="w-1/4 glass-box section-label border-blue-500" style="border-right-color: #3b82f6;">
+<div class="icon-box" style="color: #60a5fa; background-color: rgba(59, 130, 246, 0.1);">
+<i class="fas fa-laptop-code"></i>
+</div>
+<h2 class="text-xl font-bold text-white mb-1">IT Planning<br/>&amp; Service</h2>
+<p class="text-gray-400 text-xs">플랫폼 고도화 및 서비스 기획</p>
+</div>
+<!-- Content Cards -->
+<div class="w-3/4 grid grid-cols-2 gap-4">
+<div class="glass-box p-5 flex flex-col justify-center">
+<div class="flex items-center mb-3">
+<i class="fas fa-sync-alt text-blue-400 mr-3"></i>
+<h3 class="text-white font-bold text-lg">APP &amp; WEB 리뉴얼</h3>
+</div>
+<ul class="space-y-2">
+<li class="flex items-center text-sm text-gray-300">
+<span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>
+<p>멤버십 앱(APP) 전면 UI/UX 개편</p>
+</li>
+<li class="flex items-center text-sm text-gray-300">
+<span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>
+<p>공식 홈페이지 웹 접근성 및 편의성 개선</p>
+</li>
+</ul>
+</div>
+<div class="glass-box p-5 flex flex-col justify-center">
+<div class="flex items-center mb-3">
+<i class="fas fa-cash-register text-blue-400 mr-3"></i>
+<h3 class="text-white font-bold text-lg">POS &amp; 서비스 개발</h3>
+</div>
+<ul class="space-y-2">
+<li class="flex items-center text-sm text-gray-300">
+<span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>
+<p>POS 연동 선불카드 시스템 기획</p>
+</li>
+<li class="flex items-center text-sm text-gray-300">
+<span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>
+<p>스마트 오더 및 예약 서비스 고도화</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Impact Footer -->
+<div class="mt-2">
+<div class="impact-bar px-8 py-4 flex items-center justify-between">
+<div class="flex items-center">
+<div class="bg-gold text-black w-8 h-8 rounded-full flex items-center justify-center mr-4 shadow-lg font-bold">
+<i class="fas fa-check"></i>
+</div>
+<div>
+<p class="text-gold text-xs font-bold uppercase tracking-wider mb-0.5">Core Impact</p>
+<p class="text-white font-medium text-lg">결제 · 혜택 · 주문 경험 일체화로 고객 접점 확대 및 편의성 획기적 향상</p>
+</div>
+</div>
+<div class="text-right hidden sm:block">
+<span class="text-gray-400 text-sm font-light">User Experience Upgrade</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Page Number -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+            08
+        </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ABC마트 브랜드 PM 경험</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        /* Background Decorations */
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+            z-index: 0;
+            opacity: 0.5;
+        }
+
+        .glow-effect {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background-color: rgba(212, 175, 55, 0.05);
+            border-radius: 50%;
+            filter: blur(80px);
+            top: -200px;
+            right: -200px;
+            z-index: 0;
+        }
+
+        /* Glassmorphism List Item */
+        .experience-item {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 20px 24px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .experience-item:hover {
+            background-color: rgba(255, 255, 255, 0.08);
+            border-color: rgba(212, 175, 55, 0.4);
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .icon-wrapper {
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            background-color: rgba(26, 35, 50, 0.6);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 24px;
+            flex-shrink: 0;
+        }
+
+        .item-content {
+            flex: 1;
+        }
+
+        /* Left Side Highlight */
+        .highlight-panel {
+            position: relative;
+            padding-right: 40px;
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .abc-logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            letter-spacing: -0.05em;
+            background-color: #fff; 
+            /* Red color removed to maintain tone & manner, used white/gold instead */
+            color: #1a2332;
+            display: inline-block;
+            padding: 0 10px;
+            transform: skew(-10deg);
+            margin-bottom: 10px;
+        }
+
+        .role-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 16px;
+            background-color: rgba(212, 175, 55, 0.15);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 50px;
+            color: #d4af37;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-pattern"></div>
+<div class="glow-effect"></div>
+<!-- Header Section -->
+<div class="relative z-10 w-full mb-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">Professional Experience</p>
+</div>
+</div>
+<!-- Main Content Grid -->
+<div class="relative z-10 grid grid-cols-12 gap-8 h-full">
+<!-- Left Column: Title & Overview -->
+<div class="col-span-4 highlight-panel">
+<div class="mb-2">
+<div class="abc-logo-text text-4xl">ABC-MART</div>
+</div>
+<h1 class="text-5xl font-bold text-white mb-2 tracking-tight">ABC마트</h1>
+<p class="text-2xl text-gray-400 font-light mb-6">2018 - 2021</p>
+<div class="mb-8">
+<span class="role-badge">
+<i class="fas fa-id-badge mr-2"></i> 브랜드 PM
+                    </span>
+</div>
+<div class="space-y-4">
+<p class="text-gray-300 text-sm leading-relaxed">
+                        국내 최대 슈즈 멀티샵 ABC마트의 마케팅 캠페인을 총괄하며, 시즌별 대형 프로모션과 브랜드 캠페인을 성공적으로 이끌었습니다.
+                    </p>
+<div class="h-px w-20 bg-gray-600 my-4"></div>
+<p class="text-gray-400 text-xs">
+<i class="fas fa-map-marker-alt mr-2 text-gold"></i> Seoul, Korea
+                    </p>
+</div>
+</div>
+<!-- Right Column: Detailed Bullets -->
+<div class="col-span-8 flex flex-col justify-center pl-4">
+<!-- Item 1 -->
+<div class="experience-item">
+<div class="icon-wrapper">
+<i class="fas fa-bullhorn text-2xl text-gold"></i>
+</div>
+<div class="item-content">
+<h3 class="text-white font-bold text-lg mb-1">캠페인 기획 및 실행</h3>
+<p class="text-gray-400 text-sm">시즌 세일(Black ABC Day 등) 및 비시즌 브랜드 캠페인(ATL/BTL) 총괄 기획</p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="experience-item">
+<div class="icon-wrapper">
+<i class="fas fa-film text-2xl text-gold"></i>
+</div>
+<div class="item-content">
+<h3 class="text-white font-bold text-lg mb-1">TVC 제작 및 운영</h3>
+<p class="text-gray-400 text-sm">다수의 TV 광고 캠페인 PM 참여 및 크리에이티브 디렉팅 수행</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="experience-item">
+<div class="icon-wrapper">
+<i class="fas fa-sliders-h text-2xl text-gold"></i>
+</div>
+<div class="item-content">
+<h3 class="text-white font-bold text-lg mb-1">미디어 믹스 최적화</h3>
+<p class="text-gray-400 text-sm">온·오프라인 통합 채널 믹스 설계로 도달률 및 캠페인 효율 극대화</p>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="experience-item">
+<div class="icon-wrapper">
+<i class="fas fa-chart-pie text-2xl text-gold"></i>
+</div>
+<div class="item-content">
+<h3 class="text-white font-bold text-lg mb-1">예산 및 일정 관리</h3>
+<p class="text-gray-400 text-sm">연간/분기별 마케팅 예산 수립 및 프로젝트 타임라인 관리 (Budgeting &amp; Scheduling)</p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="experience-item">
+<div class="icon-wrapper">
+<i class="fas fa-handshake text-2xl text-gold"></i>
+</div>
+<div class="item-content">
+<h3 class="text-white font-bold text-lg mb-1">협업 리드</h3>
+<p class="text-gray-400 text-sm">광고 대행사, 매체사 및 내부 리테일 팀과의 유기적 커뮤니케이션 주도</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Page Number -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+            09
+        </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ABC마트 캠페인 성과 &amp; CSR</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Black+Han+Sans&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        /* Typography */
+        .campaign-title {
+            font-family: 'Black Han Sans', sans-serif;
+            line-height: 1.1;
+        }
+
+        /* Glassmorphism Cards */
+        .kpi-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+
+        .kpi-card:hover {
+            background-color: rgba(255, 255, 255, 0.08);
+            border-color: rgba(212, 175, 55, 0.4);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .icon-circle {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background-color: rgba(212, 175, 55, 0.1);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.8rem;
+            color: #d4af37;
+            margin-right: 24px;
+            flex-shrink: 0;
+        }
+
+        /* Background Decorations */
+        .glow-circle {
+            position: absolute;
+            border-radius: 50%;
+            z-index: 0;
+            opacity: 0.1;
+        }
+
+        .shoes-highlight {
+            position: relative;
+            z-index: 10;
+        }
+
+        .shoes-highlight::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background-color: rgba(212, 175, 55, 0.5);
+            z-index: -1;
+            opacity: 0.5;
+        }
+        
+        .quote-box {
+            border-left: 4px solid #d4af37;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Decorations -->
+<div class="glow-circle bg-gold" style="width: 600px; height: 600px; top: -300px; left: -200px;"></div>
+<div class="glow-circle bg-white" style="width: 400px; height: 400px; bottom: -200px; right: -100px; opacity: 0.03;"></div>
+<!-- Header -->
+<div class="relative z-10 w-full mb-8">
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">CSR &amp; Performance</p>
+</div>
+<h1 class="text-4xl font-bold text-white tracking-tight">ABC마트 캠페인 성과</h1>
+</div>
+<!-- Main Content -->
+<div class="relative z-10 flex-1 flex gap-10">
+<!-- Left: Campaign Story -->
+<div class="w-5/12 flex flex-col justify-center">
+<div class="mb-6">
+<span class="bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full mb-4 inline-block">CSR Campaign</span>
+<h2 class="text-5xl text-white font-bold campaign-title mb-2">
+                    세상에 없던<br/>
+<span class="text-gold shoes-highlight">신발</span>
+</h2>
+</div>
+<div class="space-y-6">
+<div>
+<p class="text-gray-300 text-lg leading-relaxed font-light">
+                        밤낮없이 거리를 청소하는 환경미화원분들의 안전을 위해, 
+                        <b class="text-white">빛을 반사하는 특수 소재의 '라이트 슈즈'</b>를 개발하고 기부했습니다.
+                    </p>
+</div>
+<div class="quote-box">
+<p class="text-gray-400 text-sm italic mb-2">Campaign Core Value</p>
+<p class="text-xl text-white font-medium">
+                        "신발을 통해 더 안전하고<br/>따뜻한 세상을 만듭니다."
+                    </p>
+</div>
+<div class="flex items-center mt-4 text-gray-400 text-sm">
+<i class="fas fa-hammer mr-2 text-gold"></i>
+<p>제품 기획 · 개발 · 기부 전 과정 총괄</p>
+</div>
+</div>
+</div>
+<!-- Right: KPI Cards -->
+<div class="w-7/12 flex flex-col justify-center gap-6">
+<!-- Card 1 -->
+<div class="kpi-card">
+<div class="icon-circle">
+<i class="fas fa-heart"></i>
+</div>
+<div>
+<p class="text-gray-400 text-xs font-bold uppercase tracking-wider mb-1">Brand Preference</p>
+<h3 class="text-2xl font-bold text-white mb-1">브랜드 선호도 제고</h3>
+<p class="text-gray-400 text-sm">진정성 있는 활동으로 고객 호감도 상승</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="kpi-card" style="border-color: rgba(212, 175, 55, 0.4); background-color: rgba(212, 175, 55, 0.05);">
+<div class="icon-circle bg-gold text-black border-none">
+<i class="fas fa-balance-scale"></i>
+</div>
+<div>
+<p class="text-gold text-xs font-bold uppercase tracking-wider mb-1">CSV &amp; Branding</p>
+<h3 class="text-2xl font-bold text-white mb-1">사회적 가치 + 브랜딩</h3>
+<p class="text-gray-300 text-sm">CSR을 넘어선 CSV 실현 및 브랜드 철학 전파</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="kpi-card">
+<div class="icon-circle">
+<i class="fas fa-thumbs-up"></i>
+</div>
+<div>
+<p class="text-gray-400 text-xs font-bold uppercase tracking-wider mb-1">Reputation</p>
+<h3 class="text-2xl font-bold text-white mb-1">긍정적 이미지 구축</h3>
+<p class="text-gray-400 text-sm">착한 기업 이미지 형성을 통한 충성 고객 확보</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Page Number -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+        10
+    </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>더본코리아 | F&amp;B 브랜드 마케팅</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Black+Han+Sans&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 50px 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+        
+        /* Typography */
+        .slogan-text {
+            font-family: 'Black Han Sans', sans-serif;
+            background: transparent;
+            -webkit-text-stroke: 1px rgba(212, 175, 55, 0.3);
+            color: transparent; 
+        }
+
+        /* Glassmorphism Panel */
+        .glass-panel {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .glass-panel:hover {
+            border-color: rgba(212, 175, 55, 0.3);
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .panel-header {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 20px 24px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .content-box {
+            padding: 24px;
+            flex: 1;
+        }
+
+        /* Decoration */
+        .deco-circle {
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(212, 175, 55, 0.05);
+            z-index: 0;
+        }
+
+        .bullet-gold {
+            min-width: 8px;
+            height: 8px;
+            background-color: #d4af37;
+            border-radius: 2px;
+            margin-top: 8px;
+            margin-right: 12px;
+        }
+
+        .dashed-line {
+            border-left: 2px dashed rgba(255, 255, 255, 0.1);
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            z-index: 0;
+        }
+
+        /* Brand Colors (Optional accents) */
+        .bg-hongkong { background-color: #C8102E; }
+        .bg-saemaul { background-color: #F7941D; }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- 배경 장식 -->
+<div class="deco-circle" style="width: 800px; height: 800px; top: -400px; right: -200px;"></div>
+<div class="deco-circle" style="width: 600px; height: 600px; bottom: -300px; left: -100px; opacity: 0.03;"></div>
+<!-- 헤더 섹션 -->
+<div class="relative z-10 w-full mb-10">
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">The Born Korea</p>
+</div>
+<h1 class="text-4xl font-bold text-white tracking-tight">더본코리아 <span class="text-gray-500 font-light mx-2">|</span> <span class="text-2xl text-gray-300 font-normal">F&amp;B 브랜드 마케팅</span></h1>
+</div>
+<!-- 슬로건 배너 -->
+<div class="relative z-10 w-full mb-10 py-6 border-t border-b border-gray-700 bg-white bg-opacity-5 flex justify-center items-center">
+<div class="absolute left-0 top-0 h-full w-1 bg-gold"></div>
+<p class="text-4xl font-black text-white tracking-wider text-center" style="font-family: 'Black Han Sans', sans-serif;">
+            "고객과 브랜드의 <span class="text-gold">맛있는 만남</span>"
+        </p>
+<p class="absolute right-8 text-gray-500 text-sm tracking-widest font-light">CAMPAIGN SUCCESS</p>
+</div>
+<!-- 메인 콘텐츠 2열 구조 -->
+<div class="relative z-10 grid grid-cols-2 gap-10 flex-1">
+<!-- 중앙 구분선 (장식) -->
+<div class="dashed-line"></div>
+<!-- 왼쪽: 홍콩반점0410 -->
+<div class="glass-panel">
+<div class="panel-header">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center border border-red-800">
+<i class="fas fa-utensils text-red-500 text-sm"></i>
+</div>
+<h2 class="text-lg font-bold text-white">홍콩반점0410</h2>
+</div>
+<span class="text-xs text-red-400 font-mono">BRAND 01</span>
+</div>
+<div class="content-box flex flex-col justify-between">
+<!-- 캠페인 내용 -->
+<div class="mb-6">
+<p class="text-xs text-gray-400 font-bold mb-3 tracking-wider flex items-center">
+<i class="fas fa-bullhorn mr-2 text-gold"></i> CAMPAIGN
+                    </p>
+<div class="bg-gray-800 bg-opacity-40 p-4 rounded-lg border border-gray-700">
+<p class="text-white font-medium mb-1">브랜드 세일 &amp; 멤버십 연동</p>
+<p class="text-gray-400 text-sm">국민 메뉴(짜장면 등) 파격 할인으로 오프라인 유입 및 앱 전환 유도</p>
+</div>
+</div>
+<!-- 성과 -->
+<div>
+<p class="text-xs text-gray-400 font-bold mb-3 tracking-wider flex items-center">
+<i class="fas fa-chart-line mr-2 text-gold"></i> KEY PERFORMANCE
+                    </p>
+<ul class="space-y-4">
+<li class="flex items-center justify-between bg-white bg-opacity-5 p-3 rounded">
+<div>
+<p class="text-gray-400 text-xs">신규 멤버십 가입</p>
+<p class="text-white text-xl font-bold">15,000<span class="text-sm font-normal text-gray-500 ml-1">명</span></p>
+</div>
+<i class="fas fa-users text-gray-600 text-xl"></i>
+</li>
+<li class="flex items-start">
+<div class="bullet-gold"></div>
+<div>
+<p class="text-white text-sm font-bold">ATL/BTL 통합 프로모션</p>
+<p class="text-gray-400 text-xs mt-0.5">매장 POS 연동을 통한 실시간 가입 유도</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- 오른쪽: 새마을식당 -->
+<div class="glass-panel">
+<div class="panel-header">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center border border-yellow-700">
+<i class="fas fa-fire text-yellow-500 text-sm"></i>
+</div>
+<h2 class="text-lg font-bold text-white">새마을식당</h2>
+</div>
+<span class="text-xs text-yellow-500 font-mono">BRAND 02</span>
+</div>
+<div class="content-box flex flex-col justify-between">
+<!-- 캠페인 내용 -->
+<div class="mb-6">
+<p class="text-xs text-gray-400 font-bold mb-3 tracking-wider flex items-center">
+<i class="fas fa-bullhorn mr-2 text-gold"></i> CAMPAIGN
+                    </p>
+<div class="bg-gray-800 bg-opacity-40 p-4 rounded-lg border border-gray-700">
+<p class="text-white font-medium mb-1">열탄불고기 50% 할인</p>
+<p class="text-gray-400 text-sm">개점 기념일 등을 활용한 대규모 할인 이벤트로 폭발적 트래픽 창출</p>
+</div>
+</div>
+<!-- 성과 -->
+<div>
+<p class="text-xs text-gray-400 font-bold mb-3 tracking-wider flex items-center">
+<i class="fas fa-chart-line mr-2 text-gold"></i> KEY PERFORMANCE
+                    </p>
+<ul class="space-y-4">
+<li class="flex items-center justify-between bg-white bg-opacity-5 p-3 rounded border border-gold border-opacity-30">
+<div>
+<p class="text-gold text-xs">당일 신규 가입 (Record)</p>
+<p class="text-white text-xl font-bold">38,000<span class="text-sm font-normal text-gray-500 ml-1">명</span></p>
+</div>
+<i class="fas fa-trophy text-gold text-xl"></i>
+</li>
+<li class="flex items-start">
+<div class="bullet-gold"></div>
+<div>
+<p class="text-white text-sm font-bold">오프라인 대기 → 앱 유입</p>
+<p class="text-gray-400 text-xs mt-0.5">현장 대기 시간을 활용한 앱 설치 및 가입 유도 전략 적중</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 하단 페이지 번호 -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+        11
+    </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>에이전시 경험 콘텐츠 &amp; SNS</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        /* Background Decorations - Gradients removed for export safety */
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Pattern simulated with opacity instead of gradient */
+            background-color: transparent; 
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .glow-effect {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background-color: rgba(212, 175, 55, 0.05);
+            border-radius: 50%;
+            filter: blur(80px);
+            top: -200px;
+            right: -200px;
+            z-index: 0;
+        }
+
+        /* Glassmorphism List Item */
+        .experience-item {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 24px 28px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .experience-item:hover {
+            background-color: rgba(255, 255, 255, 0.08);
+            border-color: rgba(212, 175, 55, 0.4);
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .icon-wrapper {
+            width: 64px;
+            height: 64px;
+            border-radius: 12px;
+            background-color: rgba(26, 35, 50, 0.6);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 28px;
+            flex-shrink: 0;
+        }
+
+        .item-content {
+            flex: 1;
+        }
+
+        /* Left Side Highlight */
+        .highlight-panel {
+            position: relative;
+            padding-right: 40px;
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .agency-logo-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            letter-spacing: -0.05em;
+            background-color: #fff;
+            color: #1a2332;
+            display: inline-block;
+            padding: 2px 12px;
+            transform: skew(-10deg);
+            margin-bottom: 12px;
+            font-size: 1.5rem;
+        }
+
+        .role-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 16px;
+            background-color: rgba(212, 175, 55, 0.15);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 50px;
+            color: #d4af37;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-pattern"></div>
+<div class="glow-effect"></div>
+<!-- Header Section -->
+<div class="relative z-10 w-full mb-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">Agency Experience</p>
+</div>
+</div>
+<!-- Main Content Grid -->
+<div class="relative z-10 grid grid-cols-12 gap-8 h-full">
+<!-- Left Column: Title & Overview -->
+<div class="col-span-4 highlight-panel">
+<div class="mb-2">
+<div class="agency-logo-text">AGENCY WORK</div>
+</div>
+<h1 class="text-4xl font-bold text-white mb-2 tracking-tight leading-tight">
+<p>에이전시 경험</p>
+<p class="text-2xl mt-1 text-gray-300 font-normal">콘텐츠 &amp; SNS</p>
+</h1>
+<p class="text-2xl text-gray-400 font-light mb-6">2013 - 2018</p>
+<div class="mb-8">
+<span class="role-badge">
+<i class="fas fa-hashtag mr-2"></i> 콘텐츠 마케팅
+                    </span>
+</div>
+<div class="space-y-4">
+<p class="text-gray-300 text-sm leading-relaxed">
+                        다양한 브랜드의 소셜 미디어 채널을 기획·운영하고, 인플루언서 및 글로벌 마케팅을 통해 브랜드 확산을 주도했습니다.
+                    </p>
+<div class="h-px w-20 bg-gray-600 my-4"></div>
+<p class="text-gray-400 text-xs">
+<i class="fas fa-check-circle mr-2 text-gold"></i> SKT, ABC마트 등 다수 수행
+                    </p>
+</div>
+</div>
+<!-- Right Column: Detailed Bullets -->
+<div class="col-span-8 flex flex-col justify-center pl-4">
+<!-- Item 1 -->
+<div class="experience-item">
+<div class="icon-wrapper">
+<i class="fas fa-video text-2xl text-gold"></i>
+</div>
+<div class="item-content">
+<h3 class="text-white font-bold text-xl mb-2">SNS &amp; YouTube 채널 운영</h3>
+<p class="text-gray-400 text-sm">콘텐츠 기획 · 제작 · 배포의 원스톱 프로세스 정립 및 채널 활성화</p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="experience-item">
+<div class="icon-wrapper">
+<i class="fas fa-users text-2xl text-gold"></i>
+</div>
+<div class="item-content">
+<h3 class="text-white font-bold text-xl mb-2">인플루언서 마케팅</h3>
+<p class="text-gray-400 text-sm">감스트, 대도서관, 윰댕 등 메가 인플루언서 협업을 통한 신규 매장 및 프로모션 홍보</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="experience-item">
+<div class="icon-wrapper">
+<i class="fas fa-globe text-2xl text-gold"></i>
+</div>
+<div class="item-content">
+<h3 class="text-white font-bold text-xl mb-2">글로벌 마케팅 (Global Marketing)</h3>
+<p class="text-gray-400 text-sm">동대문 상권 타겟 중국 왕홍(이즈보, 샤오홍슈) 라이브 방송 및 바이럴 마케팅 수행</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Page Number -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+            12
+        </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>식단요정 브랜드 소개</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Black+Han+Sans&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 50px 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        /* Background Decorations */
+        .bg-blob {
+            position: absolute;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, rgba(26, 35, 50, 0) 70%); /* Gradient removed, using solid with opacity for similar effect if needed, but here simple opacity is safer */
+            background-color: rgba(212, 175, 55, 0.05);
+            border-radius: 50%;
+            filter: blur(60px);
+            z-index: 0;
+        }
+
+        /* Glassmorphism Cards */
+        .glass-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+
+        .glass-card:hover {
+            background-color: rgba(255, 255, 255, 0.06);
+            border-color: rgba(212, 175, 55, 0.4);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .card-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            background-color: rgba(26, 35, 50, 0.8);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: #d4af37;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .brand-title {
+            font-family: 'Black Han Sans', sans-serif;
+            background: transparent; 
+            /* Gradient text effect simulated with standard colors to avoid CSS export issues */
+            color: #fff;
+            text-shadow: 2px 2px 0px rgba(212, 175, 55, 0.3);
+        }
+
+        .tag-pill {
+            display: inline-block;
+            padding: 4px 12px;
+            background-color: rgba(212, 175, 55, 0.1);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 20px;
+            font-size: 0.75rem;
+            color: #d4af37;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Decorations -->
+<div class="bg-blob" style="width: 800px; height: 800px; top: -300px; right: -200px;"></div>
+<div class="bg-blob" style="width: 600px; height: 600px; bottom: -200px; left: -100px; opacity: 0.5;"></div>
+<!-- Header -->
+<div class="relative z-10 w-full mb-10 flex justify-between items-end">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">Health Food Startup</p>
+</div>
+<div class="flex items-baseline gap-4">
+<h1 class="text-5xl brand-title tracking-wide">식단요정</h1>
+<p class="text-2xl text-gray-400 font-light">(2023 - 2025)</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-white font-medium text-lg">헬스 푸드 브랜드 런칭 &amp; 운영</p>
+<p class="text-gray-500 text-sm">Founder &amp; CEO Experience</p>
+</div>
+</div>
+<!-- Main Content: 2x2 Grid -->
+<div class="relative z-10 grid grid-cols-2 gap-6 flex-1">
+<!-- Card 1: Positioning -->
+<div class="glass-card">
+<div class="flex justify-between items-start">
+<div class="card-icon">
+<i class="fas fa-seedling"></i>
+</div>
+<span class="text-gray-500 text-xs font-mono">01</span>
+</div>
+<h3 class="section-title">Brand Positioning</h3>
+<div class="flex-1">
+<p class="text-gray-300 text-sm leading-relaxed mb-4">
+                        건강한 식습관을 지속 가능하게 만드는 무가당/저당 전문 웰니스 브랜드
+                    </p>
+<div class="flex flex-wrap">
+<span class="tag-pill">#무가당/저당</span>
+<span class="tag-pill">#웰니스</span>
+<span class="tag-pill">#지속가능성</span>
+</div>
+</div>
+</div>
+<!-- Card 2: Products -->
+<div class="glass-card">
+<div class="flex justify-between items-start">
+<div class="card-icon">
+<i class="fas fa-box-open"></i>
+</div>
+<span class="text-gray-500 text-xs font-mono">02</span>
+</div>
+<h3 class="section-title">Product Line-up</h3>
+<div class="flex-1">
+<p class="text-gray-300 text-sm mb-3">기획부터 생산까지 A-Z 직접 개발 (총 3종 런칭)</p>
+<ul class="space-y-2">
+<li class="flex items-center text-sm text-white">
+<i class="fas fa-check text-gold text-xs mr-2"></i>
+<p>수제 그릭요거트 <span class="text-gray-500 text-xs ml-1">(Main Product)</span></p>
+</li>
+<li class="flex items-center text-sm text-white">
+<i class="fas fa-check text-gold text-xs mr-2"></i>
+<p>프리미엄 그래놀라</p>
+</li>
+<li class="flex items-center text-sm text-white">
+<i class="fas fa-check text-gold text-xs mr-2"></i>
+<p>애사비 이너뷰티 콜라겐</p>
+</li>
+</ul>
+</div>
+</div>
+<!-- Card 3: Distribution -->
+<div class="glass-card">
+<div class="flex justify-between items-start">
+<div class="card-icon">
+<i class="fas fa-store"></i>
+</div>
+<span class="text-gray-500 text-xs font-mono">03</span>
+</div>
+<h3 class="section-title">Distribution Channels</h3>
+<div class="flex-1">
+<p class="text-gray-300 text-sm mb-3">자사몰 및 주요 오픈마켓/플랫폼 입점 완료</p>
+<div class="grid grid-cols-2 gap-2">
+<div class="bg-gray-800 bg-opacity-50 p-2 rounded text-center border border-gray-700">
+<p class="text-white text-sm font-bold">자사몰 (D2C)</p>
+</div>
+<div class="bg-gray-800 bg-opacity-50 p-2 rounded text-center border border-gray-700">
+<p class="text-white text-sm font-bold">Platform 9곳</p>
+</div>
+</div>
+<p class="text-gray-500 text-xs mt-2 text-center">
+                        네이버, 쿠팡, 롯데온, 지마켓, 11번가, 에이블리 등
+                    </p>
+</div>
+</div>
+<!-- Card 4: Service -->
+<div class="glass-card">
+<div class="flex justify-between items-start">
+<div class="card-icon">
+<i class="fas fa-users"></i>
+</div>
+<span class="text-gray-500 text-xs font-mono">04</span>
+</div>
+<h3 class="section-title">Service &amp; Community</h3>
+<div class="flex-1">
+<p class="text-gray-300 text-sm leading-relaxed mb-4">
+                        단순 제품 판매를 넘어선 라이프스타일 케어 서비스 제공
+                    </p>
+<div class="space-y-3">
+<div class="flex items-center bg-gray-700 bg-opacity-30 p-2 rounded">
+<i class="fas fa-utensils text-gray-400 mr-3 ml-1"></i>
+<div>
+<p class="text-white text-xs font-bold">맞춤 식단 관리</p>
+<p class="text-gray-500 text-xs">개인별 목표 기반 솔루션</p>
+</div>
+</div>
+<div class="flex items-center bg-gray-700 bg-opacity-30 p-2 rounded">
+<i class="fas fa-running text-gray-400 mr-3 ml-1"></i>
+<div>
+<p class="text-white text-xs font-bold">운동 크루 운영</p>
+<p class="text-gray-500 text-xs">전문가 협력 체험 프로그램</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Page Number -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+            13
+        </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>스타트업 성과 &amp; 비즈니스 모델</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Black+Han+Sans&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        .section-title {
+            font-family: 'Black Han Sans', sans-serif;
+            line-height: 1.1;
+        }
+
+        /* Glassmorphism Cards */
+        .glass-panel {
+            background-color: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+        
+        .glass-panel:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-color: rgba(212, 175, 55, 0.3);
+        }
+
+        .kpi-value {
+            font-family: 'Black Han Sans', sans-serif;
+            color: #ffffff;
+        }
+
+        .kpi-value-gold {
+            font-family: 'Black Han Sans', sans-serif;
+            color: #d4af37;
+        }
+
+        /* Background Decorations */
+        .glow-circle {
+            position: absolute;
+            border-radius: 50%;
+            z-index: 0;
+            opacity: 0.1;
+            pointer-events: none;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 180px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Decorations -->
+<div class="glow-circle bg-gold" style="width: 700px; height: 700px; top: -200px; right: -200px; opacity: 0.08;"></div>
+<div class="glow-circle bg-blue-900" style="width: 500px; height: 500px; bottom: -100px; left: -100px; opacity: 0.2;"></div>
+<!-- Header -->
+<div class="relative z-10 w-full mb-8 flex justify-between items-end">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<div class="h-px w-8 bg-gold"></div>
+<p class="text-gold text-xs font-bold tracking-[0.2em] uppercase">Startup Performance &amp; Model</p>
+</div>
+<h1 class="text-4xl font-bold text-white tracking-tight section-title">스타트업 성과 &amp; 비즈니스 모델</h1>
+</div>
+<div class="text-right">
+<p class="text-gray-400 text-sm">식단요정 (2023 - 2025)</p>
+</div>
+</div>
+<!-- Main Content -->
+<div class="relative z-10 flex-1 flex gap-8">
+<!-- Left: KPI Grid & Chart -->
+<div class="w-8/12 flex flex-col gap-6">
+<!-- KPI Grid -->
+<div class="grid grid-cols-2 gap-4">
+<!-- KPI 1 -->
+<div class="glass-panel flex flex-col justify-between h-32">
+<div class="flex justify-between items-start">
+<p class="text-gray-400 text-xs font-bold uppercase tracking-wider">누적 판매량</p>
+<i class="fas fa-shopping-cart text-gold opacity-50"></i>
+</div>
+<div>
+<p class="text-4xl kpi-value mb-1">2,023,400<span class="text-2xl ml-1 text-gray-400 font-normal">g</span></p>
+<p class="text-green-400 text-xs flex items-center gap-1"><i class="fas fa-arrow-up"></i> 누적 판매 성과</p>
+</div>
+</div>
+<!-- KPI 2 -->
+<div class="glass-panel flex flex-col justify-between h-32">
+<div class="flex justify-between items-start">
+<p class="text-gray-400 text-xs font-bold uppercase tracking-wider">재구매율</p>
+<i class="fas fa-sync-alt text-gold opacity-50"></i>
+</div>
+<div>
+<p class="text-4xl kpi-value mb-1">74<span class="text-2xl ml-1 text-gray-400 font-normal">%</span></p>
+<p class="text-gray-400 text-xs">높은 고객 충성도 유지</p>
+</div>
+</div>
+<!-- KPI 3 -->
+<div class="glass-panel flex flex-col justify-between h-32">
+<div class="flex justify-between items-start">
+<p class="text-gray-400 text-xs font-bold uppercase tracking-wider">ROAS</p>
+<i class="fas fa-bullhorn text-gold opacity-50"></i>
+</div>
+<div>
+<p class="text-4xl kpi-value mb-1">329<span class="text-2xl ml-1 text-gray-400 font-normal">%</span></p>
+<p class="text-gray-400 text-xs">효율적 마케팅 집행</p>
+</div>
+</div>
+<!-- KPI 4 -->
+<div class="glass-panel flex flex-col justify-between h-32 border-gold" style="background-color: rgba(212, 175, 55, 0.05);">
+<div class="flex justify-between items-start">
+<p class="text-gold text-xs font-bold uppercase tracking-wider">월 평균 성장</p>
+<i class="fas fa-chart-line text-gold"></i>
+</div>
+<div>
+<p class="text-4xl kpi-value-gold mb-1">1.3<span class="text-2xl ml-1 text-white font-normal">배</span></p>
+<p class="text-gold text-xs opacity-80">전월 대비 지속 성장</p>
+</div>
+</div>
+</div>
+<!-- Chart Section -->
+<div class="glass-panel flex-1 flex flex-col">
+<p class="text-gray-400 text-xs font-bold uppercase tracking-wider mb-2">Monthly Growth Trend</p>
+<div class="chart-container">
+<canvas id="growthChart"></canvas>
+</div>
+</div>
+</div>
+<!-- Right: Business Model -->
+<div class="w-4/12 flex flex-col h-full">
+<div class="glass-panel h-full flex flex-col justify-center relative overflow-hidden">
+<!-- Decorative BG for BM -->
+<div class="absolute top-0 right-0 w-32 h-32 bg-gold opacity-5 rounded-full filter blur-xl"></div>
+<span class="bg-gray-700 text-white text-xs font-bold px-3 py-1 rounded-full w-max mb-6 inline-block">Business Model</span>
+<h3 class="text-3xl font-bold text-white mb-8 leading-tight">
+                    커뮤니티와 제품의<br/>
+<span class="text-gold">선순환 구조</span> 구축
+                </h3>
+<div class="space-y-8 relative">
+<!-- Connecting Line -->
+<div class="absolute left-6 top-4 bottom-4 w-0.5 bg-gray-700 z-0"></div>
+<!-- Step 1 -->
+<div class="flex items-start gap-4 relative z-10">
+<div class="w-12 h-12 rounded-full bg-gray-800 border border-gray-600 flex items-center justify-center flex-shrink-0 text-white">
+<i class="fas fa-box-open"></i>
+</div>
+<div>
+<h4 class="text-lg font-bold text-white mb-1">Product</h4>
+<p class="text-gray-400 text-sm">무가당/저당 웰니스<br/>제품 판매</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex items-start gap-4 relative z-10">
+<div class="w-12 h-12 rounded-full bg-gray-800 border border-gray-600 flex items-center justify-center flex-shrink-0 text-white">
+<i class="fas fa-users"></i>
+</div>
+<div>
+<h4 class="text-lg font-bold text-white mb-1">Community</h4>
+<p class="text-gray-400 text-sm">식단/운동 크루 운영<br/>고객 Lock-in</p>
+</div>
+</div>
+<!-- Step 3 (Result) -->
+<div class="flex items-start gap-4 relative z-10">
+<div class="w-12 h-12 rounded-full bg-gold border border-gold flex items-center justify-center flex-shrink-0 text-black shadow-lg">
+<i class="fas fa-infinity"></i>
+</div>
+<div>
+<h4 class="text-lg font-bold text-gold mb-1">LTV Maximize</h4>
+<p class="text-gray-300 text-sm">재구매와 팬덤 형성<br/>생애 가치 극대화</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Page Number -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+        14
+    </div>
+</div>
+<script>
+    const ctx = document.getElementById('growthChart').getContext('2d');
+    
+    // Gradient for the chart area
+    const gradient = ctx.createLinearGradient(0, 0, 0, 200);
+    gradient.addColorStop(0, 'rgba(212, 175, 55, 0.5)');
+    gradient.addColorStop(1, 'rgba(212, 175, 55, 0.0)');
+
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['M-5', 'M-4', 'M-3', 'M-2', 'M-1', 'Current'],
+            datasets: [{
+                label: 'Monthly Sales Growth',
+                data: [100, 130, 170, 220, 290, 380], // Simulated 1.3x growth
+                borderColor: '#d4af37',
+                backgroundColor: gradient,
+                borderWidth: 3,
+                pointBackgroundColor: '#1a2332',
+                pointBorderColor: '#d4af37',
+                pointBorderWidth: 2,
+                pointRadius: 4,
+                fill: true,
+                tension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.05)'
+                    },
+                    ticks: {
+                        display: false
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false
+                    },
+                    ticks: {
+                        color: '#9ca3af',
+                        font: {
+                            family: "'Noto Sans KR', sans-serif",
+                            size: 10
+                        }
+                    }
+                }
+            },
+            animation: {
+                duration: 2000,
+                easing: 'easeOutQuart'
+            }
+        }
+    });
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>핵심 역량 &amp; 연락처</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&amp;family=Montserrat:wght@400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #1a2332; /* Deep Navy */
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+            box-sizing: border-box;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+
+        /* Background Deco */
+        .bg-circle {
+            position: absolute;
+            border-radius: 50%;
+            z-index: 0;
+            opacity: 0.05;
+        }
+
+        /* Glassmorphism Cards */
+        .glass-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+
+        .glass-card:hover {
+            background-color: rgba(255, 255, 255, 0.06);
+            border-color: rgba(212, 175, 55, 0.5);
+            transform: translateY(-5px);
+        }
+
+        .icon-box {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background-color: rgba(26, 35, 50, 0.8);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: #d4af37;
+            margin-bottom: 16px;
+        }
+
+        .value-box {
+            background-color: rgba(212, 175, 55, 0.05);
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            padding: 20px 0;
+            margin: 30px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 30px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 50px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Decorations -->
+<div class="bg-circle bg-white" style="width: 800px; height: 800px; top: -400px; right: -200px;"></div>
+<div class="bg-circle bg-gold" style="width: 600px; height: 600px; bottom: -300px; left: -100px;"></div>
+<!-- Header -->
+<div class="relative z-10 w-full mb-10 text-center">
+<div class="flex justify-center items-center gap-3 mb-3">
+<div class="h-px w-10 bg-gold"></div>
+<p class="text-gold text-sm font-bold tracking-[0.3em] uppercase font-montserrat">Summary &amp; Proposal</p>
+<div class="h-px w-10 bg-gold"></div>
+</div>
+<h1 class="text-5xl font-bold text-white tracking-tight mb-2">Core Competencies</h1>
+<p class="text-gray-400 text-lg font-light">마케팅의 전 과정을 아우르는 통합적 역량</p>
+</div>
+<!-- Main Content: Competencies Grid (3 Top, 2 Bottom) -->
+<div class="relative z-10 w-full flex-1 flex flex-col justify-center">
+<!-- Row 1 -->
+<div class="grid grid-cols-3 gap-6 mb-6">
+<!-- Card 1 -->
+<div class="glass-card">
+<div class="icon-box">
+<i class="fas fa-layer-group"></i>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">IMC 총괄 리드</h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+                        온·오프라인 통합 전략 수립 및<br/>캠페인 전체 프로세스 리딩
+                    </p>
+</div>
+<!-- Card 2 -->
+<div class="glass-card">
+<div class="icon-box">
+<i class="fas fa-bullhorn"></i>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">ATL / BTL</h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+                        TVC 등 매스미디어 광고 및<br/>리테일 프로모션 기획/실행
+                    </p>
+</div>
+<!-- Card 3 -->
+<div class="glass-card">
+<div class="icon-box">
+<i class="fas fa-chart-pie"></i>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">CRM &amp; Data</h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+                        고객 데이터 분석 기반<br/>개인화 마케팅 및 효율 최적화
+                    </p>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="flex justify-center gap-6 mb-8">
+<!-- Card 4 -->
+<div class="glass-card w-1/3">
+<div class="icon-box">
+<i class="fas fa-mobile-alt"></i>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">APP / POS 기획</h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+                        서비스 기획 및 개발 핸들링,<br/>디지털 전환 프로젝트 수행
+                    </p>
+</div>
+<!-- Card 5 -->
+<div class="glass-card w-1/3">
+<div class="icon-box">
+<i class="fas fa-handshake"></i>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">Partnership</h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+                        대형 플랫폼 제휴 및<br/>콜라보레이션 매니지먼트
+                    </p>
+</div>
+</div>
+</div>
+<!-- Value Proposition Bar -->
+<div class="relative z-10 w-full mb-8">
+<div class="value-box">
+<div class="flex items-center">
+<i class="fas fa-check-circle text-gold mr-3 text-xl"></i>
+<p class="text-white font-bold text-lg">브랜드 일관성 확립</p>
+</div>
+<div class="h-8 w-px bg-gray-600"></div>
+<div class="flex items-center">
+<i class="fas fa-check-circle text-gold mr-3 text-xl"></i>
+<p class="text-white font-bold text-lg">경로 전환 최적화</p>
+</div>
+<div class="h-8 w-px bg-gray-600"></div>
+<div class="flex items-center">
+<i class="fas fa-check-circle text-gold mr-3 text-xl"></i>
+<p class="text-white font-bold text-lg">재방문 / 충성도 증대</p>
+</div>
+</div>
+</div>
+<!-- Contact Footer -->
+<div class="relative z-10 w-full flex justify-between items-center mt-auto pt-4 border-t border-gray-700">
+<div>
+<p class="text-gray-400 text-sm">Thank you for watching</p>
+<p class="text-white font-bold text-xl font-montserrat">KIM YOUNG OH</p>
+</div>
+<div class="flex gap-4">
+<div class="contact-info">
+<i class="fas fa-envelope text-gold"></i>
+<p class="text-white font-mono text-sm">{Email Address}</p>
+</div>
+<div class="contact-info">
+<i class="fas fa-phone-alt text-gold"></i>
+<p class="text-white font-mono text-sm">{Phone Number}</p>
+</div>
+</div>
+</div>
+<!-- Page Number -->
+<div class="absolute bottom-6 right-8 text-gray-600 font-mono text-sm">
+            15
+        </div>
+</div>
+</body>
+</html>
